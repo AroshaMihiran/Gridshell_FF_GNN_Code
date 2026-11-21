@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "model": "M4",
+  "training_started": false,
+  "accepted_cases": {
+    "train": 8084,
+    "validation": 997,
+    "test": 994
+  },
+  "checks": [
+    "Full published sample/layout/geometry-group/split selection matched",
+    "All 10075 label-manifest SHA-256 values matched",
+    "One verified graph loaded in each partition"
+  ],
+  "training_source_modules_match_original_experiments": true,
+  "operational_adaptation": "Default dataset directory changed to dataset; driver requires explicit --dataset and uses saved numerical configurations."
+}

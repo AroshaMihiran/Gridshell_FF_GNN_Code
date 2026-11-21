@@ -1,0 +1,1076 @@
+{
+  "schema_version": 1,
+  "units": "m, kN, kPa, m2",
+  "files": [
+    {
+      "file": ".gitignore",
+      "bytes": 84,
+      "sha256": "b61a27ae6dc5aed94761f214d9df044eceb1b62cbddbc8194172da5bf04e7518"
+    },
+    {
+      "file": "gnn/checkpoints/M1/best.pt",
+      "bytes": 2582171,
+      "sha256": "e4c4b577f9b81038c69e8e2feedb59f33ebbbf1e139f7b6755aabe37a768f96d"
+    },
+    {
+      "file": "gnn/checkpoints/M1/config.json",
+      "bytes": 1858,
+      "sha256": "2c89f0656e580c752ba8821b5341782d7d0c2d841ca85ce59e0f589861e0edf8"
+    },
+    {
+      "file": "gnn/checkpoints/M1/evaluation_test/metrics.json",
+      "bytes": 2652,
+      "sha256": "db460a5af8075996aba4c8499ef9418d3e89582b9b9e2aef8a135c4d5d145bde"
+    },
+    {
+      "file": "gnn/checkpoints/M1/evaluation_test/per_case_metrics.csv",
+      "bytes": 1224349,
+      "sha256": "e9bf651f67abf4f35f15a10b9e5bd233a8ca02ca9d223053d266e087ac568c92"
+    },
+    {
+      "file": "gnn/checkpoints/M1/history.csv",
+      "bytes": 148999,
+      "sha256": "4d5d052316c435fe168c3bddd7ab12f30e2224e2e6d511f64bc8595667548071"
+    },
+    {
+      "file": "gnn/checkpoints/M1/startup_validation.json",
+      "bytes": 894,
+      "sha256": "4cfc7ac87e323640bd614e26617e7aa586cc4ae6d4d207953d1528eabb83bc07"
+    },
+    {
+      "file": "gnn/checkpoints/M1/training_summary.json",
+      "bytes": 486,
+      "sha256": "713e43bcda96eaa149f824dae13060e74c423da37d5b1be6cd0bb79e293eca1d"
+    },
+    {
+      "file": "gnn/checkpoints/M2/best.pt",
+      "bytes": 2652923,
+      "sha256": "ffdb4e44f2f99dca69ba3f605b299dcf0090edae71a466a64abb231c9f7fd5c0"
+    },
+    {
+      "file": "gnn/checkpoints/M2/config.json",
+      "bytes": 1858,
+      "sha256": "2c89f0656e580c752ba8821b5341782d7d0c2d841ca85ce59e0f589861e0edf8"
+    },
+    {
+      "file": "gnn/checkpoints/M2/evaluation_test/metrics.json",
+      "bytes": 2647,
+      "sha256": "f0603efbbbb80ea516b64451250c6b61bec9143b17be7845e23a1884f59f2be2"
+    },
+    {
+      "file": "gnn/checkpoints/M2/evaluation_test/per_case_metrics.csv",
+      "bytes": 1226172,
+      "sha256": "cf87aba4fc3f9fae74f31e5ea803a98ec2de6d5ec623417a66beb624ed7be026"
+    },
+    {
+      "file": "gnn/checkpoints/M2/history.csv",
+      "bytes": 217471,
+      "sha256": "80893f599fbbdd119bcbb7b9f835ad29f9a29884d3cb5deca043742bb226f038"
+    },
+    {
+      "file": "gnn/checkpoints/M2/startup_validation.json",
+      "bytes": 891,
+      "sha256": "e61b6e3769c5adb5810b4d77408a19ac036065488be0d5a0748f723e219ecc17"
+    },
+    {
+      "file": "gnn/checkpoints/M2/training_summary.json",
+      "bytes": 483,
+      "sha256": "d2aaad1f419c2c213a518fb31a536f8834346318cefd50c60e00ed8ed3850ae0"
+    },
+    {
+      "file": "gnn/checkpoints/M3/best.pt",
+      "bytes": 2741307,
+      "sha256": "acdc662c126418368a56fae9e6236fbc27aba6846cf21306d0e7580a27aae950"
+    },
+    {
+      "file": "gnn/checkpoints/M3/config.json",
+      "bytes": 1858,
+      "sha256": "2c89f0656e580c752ba8821b5341782d7d0c2d841ca85ce59e0f589861e0edf8"
+    },
+    {
+      "file": "gnn/checkpoints/M3/evaluation_test/metrics.json",
+      "bytes": 2655,
+      "sha256": "20d537dd57716db6dd13e0f5901ca6530991be4c965467d7d24de46dfdebc123"
+    },
+    {
+      "file": "gnn/checkpoints/M3/evaluation_test/per_case_metrics.csv",
+      "bytes": 1226556,
+      "sha256": "bba31c0738a864921af53d715ac42794c7ccc9fd6e6f08f0773094b3f36accdb"
+    },
+    {
+      "file": "gnn/checkpoints/M3/history.csv",
+      "bytes": 280915,
+      "sha256": "18c87a7f62aa059cb145c0316ca48bc1e5427b5b8403b43d999d22889bc98aff"
+    },
+    {
+      "file": "gnn/checkpoints/M3/startup_validation.json",
+      "bytes": 892,
+      "sha256": "e6eeac5ee6c285bd791a597c1df003c436c61e865b0d608889d1adf6b8fe4639"
+    },
+    {
+      "file": "gnn/checkpoints/M3/training_summary.json",
+      "bytes": 486,
+      "sha256": "7f708b18aeb0cab645af49f281a0486d63c22aeb393146d389cdc90d79151b8f"
+    },
+    {
+      "file": "gnn/checkpoints/M4/best.pt",
+      "bytes": 2740347,
+      "sha256": "cbd14787420261eeccdce3cec8607c248037365700cbb20fe8d4d88b5b7dc563"
+    },
+    {
+      "file": "gnn/checkpoints/M4/config.json",
+      "bytes": 1844,
+      "sha256": "5614f604ccd4e0298bf4c5050df8fd4bfc7194ac069458fecd15bb55b113cb4a"
+    },
+    {
+      "file": "gnn/checkpoints/M4/evaluation_test/metrics.json",
+      "bytes": 2645,
+      "sha256": "1d50d2f8046055a8c02ce390f2c5397b5b21bd737545d818b10c304e6a35982c"
+    },
+    {
+      "file": "gnn/checkpoints/M4/evaluation_test/per_case_metrics.csv",
+      "bytes": 1217924,
+      "sha256": "37666919d76f1f8c9682eccdaa2bcf9c83c76b8721c2fdbcdd69268e844b6755"
+    },
+    {
+      "file": "gnn/checkpoints/M4/history.csv",
+      "bytes": 364148,
+      "sha256": "88da37f873b1ef17a32c585bc9c0c624506d74a215b3310d4c35bbea81510267"
+    },
+    {
+      "file": "gnn/checkpoints/M4/startup_validation.json",
+      "bytes": 942,
+      "sha256": "f3fabbf91229b4fc2b632482fca701f143e9a594eb917e9b3d064553b8d2b0b7"
+    },
+    {
+      "file": "gnn/checkpoints/M4/training_summary.json",
+      "bytes": 518,
+      "sha256": "7b7236e2fa6e69010c94fbc7cd2cfda9a29f724e7beece3c054075d76b69fb1a"
+    },
+    {
+      "file": "gnn/examples/layout_000014_variant_04/joint.csv",
+      "bytes": 21693,
+      "sha256": "004662859547b67d31988659425ba34173b813c233ca96eb8ebc75df6982515b"
+    },
+    {
+      "file": "gnn/examples/layout_000014_variant_04/member.csv",
+      "bytes": 15100,
+      "sha256": "45b68e5adeddf7e6138407406235e38da649736fbc5f441286904b14e4132cb3"
+    },
+    {
+      "file": "gnn/examples/layout_000014_variant_04/panel.csv",
+      "bytes": 8095,
+      "sha256": "f31990b254e06a13e1b056ab9e21a6d04c6f40ecbf85b47120c6d0b68935cad8"
+    },
+    {
+      "file": "gnn/examples/layout_000014_variant_04/reference_predictions/M1_seed42.npz",
+      "bytes": 12320,
+      "sha256": "93a4765b175a98eddefb3aa30e3af9fce0ad12988f211098605942f93fb245a6"
+    },
+    {
+      "file": "gnn/examples/layout_000014_variant_04/reference_predictions/M2_seed42.npz",
+      "bytes": 12333,
+      "sha256": "bc686fb8434a9cd26814305ab523c2da632f76be3fcfd647677cd7bafc5c9495"
+    },
+    {
+      "file": "gnn/examples/layout_000014_variant_04/reference_predictions/M3_seed42.npz",
+      "bytes": 12324,
+      "sha256": "437b0f8735676e2d9f4f9d65c774921ec7f3777a11b08e01861f5d6c418abb86"
+    },
+    {
+      "file": "gnn/examples/layout_000014_variant_04/reference_predictions/M4_seed42.npz",
+      "bytes": 12326,
+      "sha256": "a975a30dcfe6b4399125150d899a15e84c2ae63acc37c32173c051ebdcc7e985"
+    },
+    {
+      "file": "gnn/examples/layout_000017_variant_01/joint.csv",
+      "bytes": 9967,
+      "sha256": "e67d2a40a1dbd767d37957a2f9c7ecad590c47a678534ce24747fe9bd1d14c59"
+    },
+    {
+      "file": "gnn/examples/layout_000017_variant_01/member.csv",
+      "bytes": 4780,
+      "sha256": "3ed06b0d729158bb56746a484c7f608673a082336014e1c79b601f727310d42d"
+    },
+    {
+      "file": "gnn/examples/layout_000017_variant_01/panel.csv",
+      "bytes": 2050,
+      "sha256": "d3689d4ce12e7e57231e26acc8c30f4bd29fe33e4c04c68680cbe4a612bcda98"
+    },
+    {
+      "file": "gnn/examples/layout_000017_variant_01/reference_predictions/M1_seed42.npz",
+      "bytes": 6408,
+      "sha256": "0a56136e3f713c5a8ea9d3f4debb5fbb9b78610a7a41f7e3879c826b49f30a18"
+    },
+    {
+      "file": "gnn/examples/layout_000017_variant_01/reference_predictions/M2_seed42.npz",
+      "bytes": 6414,
+      "sha256": "a874eb78dc19ec570ed5c0534f8bbc098cc5640ab63afb00d92cfe6277c94c31"
+    },
+    {
+      "file": "gnn/examples/layout_000017_variant_01/reference_predictions/M3_seed42.npz",
+      "bytes": 6421,
+      "sha256": "455e28d4a4dbc43854105640ba967b10fbe564ba458dd0fbb92e552586257e56"
+    },
+    {
+      "file": "gnn/examples/layout_000017_variant_01/reference_predictions/M4_seed42.npz",
+      "bytes": 6412,
+      "sha256": "765b009aca7c51db4a818352ccb791714eefb91ff0201f02eb7da07439c01023"
+    },
+    {
+      "file": "gnn/examples/layout_000027_variant_05/joint.csv",
+      "bytes": 54131,
+      "sha256": "f472960e06d8cbb91b4546e722834db1fe30fed305cb1c43120ea7f599c57a66"
+    },
+    {
+      "file": "gnn/examples/layout_000027_variant_05/member.csv",
+      "bytes": 31989,
+      "sha256": "6e0bec325b944efcb3e5b8bdc0deff7d44ec1d0f70c128d83b37db50a2ae6691"
+    },
+    {
+      "file": "gnn/examples/layout_000027_variant_05/panel.csv",
+      "bytes": 12540,
+      "sha256": "0ccc9ca730d44da2d13ebccc613a6bd226ea6146e2f1687842be03142f0f05e8"
+    },
+    {
+      "file": "gnn/examples/layout_000123_variant_07/joint.csv",
+      "bytes": 40697,
+      "sha256": "385482c43cbf7e2dfb7809af69dca5940702edc50e8e61b126127a195a5a2015"
+    },
+    {
+      "file": "gnn/examples/layout_000123_variant_07/member.csv",
+      "bytes": 23445,
+      "sha256": "0a981d28e7f884d03b4e342a3b088d1dcdd0e0b59537c402176dcb24b5822925"
+    },
+    {
+      "file": "gnn/examples/layout_000123_variant_07/panel.csv",
+      "bytes": 10282,
+      "sha256": "2a3c74c366933ee135ce96b71bc6746a845624c31d0e0d769240e336ea9f6c7c"
+    },
+    {
+      "file": "gnn/examples/layout_000839_variant_06/joint.csv",
+      "bytes": 158925,
+      "sha256": "83f18ceae505c91c6eb33f9e238ba370ed93351ee16524de82880b2821f96f66"
+    },
+    {
+      "file": "gnn/examples/layout_000839_variant_06/member.csv",
+      "bytes": 144378,
+      "sha256": "4566adce73974fe0152c00f9682989783c9d6100176a7284770f8729ac1c6fae"
+    },
+    {
+      "file": "gnn/examples/layout_000839_variant_06/panel.csv",
+      "bytes": 78064,
+      "sha256": "3f3bd0fdd74123415d6f6771c1aee6abd886367a169d53b1e55b8a06acc71d6c"
+    },
+    {
+      "file": "gnn/examples/layout_000842_variant_11/joint.csv",
+      "bytes": 75918,
+      "sha256": "8e8f28a2b0ab3e16a6784898068acfba8a33879df18302aabc831c643dd597b3"
+    },
+    {
+      "file": "gnn/examples/layout_000842_variant_11/member.csv",
+      "bytes": 46659,
+      "sha256": "1087dce4a9f2f4efc5ae9d89f8200f223bc1a96408379334750dfe6f1e971245"
+    },
+    {
+      "file": "gnn/examples/layout_000842_variant_11/panel.csv",
+      "bytes": 19480,
+      "sha256": "3cba4562f2221f7f1360a2dbd3250956d9072bed3e394d9531e041945e0949e3"
+    },
+    {
+      "file": "gnn/experiments/baseline.json",
+      "bytes": 3815568,
+      "sha256": "9bee73883614cadb6d94b38beb798eef2bc01ad1accae1199ec4d540896d277f"
+    },
+    {
+      "file": "gnn/experiments/case_partitions.csv",
+      "bytes": 1269576,
+      "sha256": "a02aab2fb5e9b8a579ee3f6ed3582494781df2ee7b8e01da4d2fb7814d1e0516"
+    },
+    {
+      "file": "gnn/experiments/m4_latest.json",
+      "bytes": 3815541,
+      "sha256": "935cb467ab65bec90370fdaa71d1432ca7aac21bb7e172b520f17dcf92c2bb84"
+    },
+    {
+      "file": "gnn/fftgnn/__init__.py",
+      "bytes": 84,
+      "sha256": "395a4665ca95055fb59f7a05533c34e49024bf9d1b5980a39b30888bc9441871"
+    },
+    {
+      "file": "gnn/fftgnn/checkpoint_selection.py",
+      "bytes": 1240,
+      "sha256": "ca2243eeda2a727165dab38e7bcb32a37de0e32b88b5e9fd823e53857fd29a28"
+    },
+    {
+      "file": "gnn/fftgnn/config.py",
+      "bytes": 7562,
+      "sha256": "404a0ae52245039bd47030bb89b11a1b4487a652d4735db364b5d671e5f1f252"
+    },
+    {
+      "file": "gnn/fftgnn/csv_io.py",
+      "bytes": 14516,
+      "sha256": "f0da51601d58657a973bbd9c7c9c65c0217c29fbc7a52a948ef52258a64b2d97"
+    },
+    {
+      "file": "gnn/fftgnn/data.py",
+      "bytes": 23323,
+      "sha256": "400cb468f68f2a592b1f938e6cc2109fee76a235032eb9d2a717a0fc3d0c5e8f"
+    },
+    {
+      "file": "gnn/fftgnn/evaluation.py",
+      "bytes": 29887,
+      "sha256": "858001470d9f62a68f8236e057dea7af9a97082b900f45641a6ec135bebe6f7b"
+    },
+    {
+      "file": "gnn/fftgnn/experiment.py",
+      "bytes": 4890,
+      "sha256": "e0105d68ff8a8c455076db5a7bf5e3a69675a6dd48da2932c0bdee0d59940b56"
+    },
+    {
+      "file": "gnn/fftgnn/models.py",
+      "bytes": 4640,
+      "sha256": "4a5a6b4bd8a7e08ba6c4362e812dd09e30bc9558e4d1de9b01ddb762e99ac177"
+    },
+    {
+      "file": "gnn/fftgnn/physics.py",
+      "bytes": 16414,
+      "sha256": "b93772aae12b6e18b8a495d6488d6c838f877c1f65251c5b582d70192cb6188b"
+    },
+    {
+      "file": "gnn/fftgnn/reactions.py",
+      "bytes": 10295,
+      "sha256": "cdcaf9931abca9c2c89a08d541935e82a106a4e19c42d97359f47800905e7392"
+    },
+    {
+      "file": "gnn/fftgnn/release.py",
+      "bytes": 5864,
+      "sha256": "4561c58c0616847952b648ea9fd79e5d76e6b426d28d60d919a90269ad1bcb08"
+    },
+    {
+      "file": "gnn/fftgnn/schedule.py",
+      "bytes": 4385,
+      "sha256": "dd41fa5dc7aabb2a926816c1d9b7d7cdc1663afa2b44d06a37ada14b3e00c5ab"
+    },
+    {
+      "file": "gnn/fftgnn/training.py",
+      "bytes": 23934,
+      "sha256": "178d8066a32da4baf82cc12811e67d0cde2a06f51d61fce88a783959e8a59ea2"
+    },
+    {
+      "file": "gnn/model_registry.json",
+      "bytes": 3735,
+      "sha256": "3b918e2a889e6fd17379bc83077520bdd702de7a64a6f60aad8e8a88b3ec23ce"
+    },
+    {
+      "file": "gnn/normalizer.json",
+      "bytes": 268517,
+      "sha256": "164a669da05a9951bae48c62dd9a7713d542ce0b345e4001937db437483fc059"
+    },
+    {
+      "file": "gnn/predict.py",
+      "bytes": 2664,
+      "sha256": "f71d125e45e7e4be750d75208942a955787f9bee13dcd6a52d34f9acfc57b58b"
+    },
+    {
+      "file": "gnn/README.md",
+      "bytes": 3037,
+      "sha256": "3b387e3a5b8aaa9b214194673b202682676cf99673fb180042bee039f1269f9b"
+    },
+    {
+      "file": "gnn/requirements-training.txt",
+      "bytes": 38,
+      "sha256": "8ae85550374b771fadccaa41aa6fc2f0b0047a91aaf38dda6a53fd6b12872cbd"
+    },
+    {
+      "file": "gnn/requirements.txt",
+      "bytes": 34,
+      "sha256": "d6a0afe69bc261f7de8e605e5cab2b7ce4e2e310c910eabf5da5e136b4e29b0a"
+    },
+    {
+      "file": "gnn/tests/test_release.py",
+      "bytes": 6750,
+      "sha256": "3df877ee2a8e50f98fc230957fa85d4f94fbe3c6d7f4f511351e97858fd1a9f2"
+    },
+    {
+      "file": "gnn/train.py",
+      "bytes": 2980,
+      "sha256": "791860c0c4a0d9712e5d7e6a92408c208542f9fc78898084adef77015bca55da"
+    },
+    {
+      "file": "matlab/.gitignore",
+      "bytes": 45,
+      "sha256": "3f2054f7113e4585cdc77302fecfbe23b9e98abc92e6028abc3ce1be3301bf74"
+    },
+    {
+      "file": "matlab/code/aa_design_evaluate.m",
+      "bytes": 3405,
+      "sha256": "396a90d2586bf7726cc835448561fb067fc0280c3dd64aa594bd73d900ffc1f4"
+    },
+    {
+      "file": "matlab/code/aa_iterative_size.m",
+      "bytes": 5040,
+      "sha256": "9c2012789c7927580431d991640c97833ce22db64a2025acd5de6e3990b946af"
+    },
+    {
+      "file": "matlab/code/aa_resistance_checks.m",
+      "bytes": 571,
+      "sha256": "a8161b7346ed3da40e1b213d2dfea3ba5cffdcbb906cfe8ff6ce0df1d3fa0684"
+    },
+    {
+      "file": "matlab/code/frame3d_from_handoff.m",
+      "bytes": 9444,
+      "sha256": "3971c5fb128a0572cef85a966923802e6366b5c0f4c50a8571fdc6e475fb63ed"
+    },
+    {
+      "file": "matlab/code/frame3d_linear.m",
+      "bytes": 7977,
+      "sha256": "e23e8ac6a9d0e2b97722cbf009ba76541ec026f3fed9e4fb3930b3a4a778358c"
+    },
+    {
+      "file": "matlab/code/frame3d_section.m",
+      "bytes": 1402,
+      "sha256": "43bdc481817fcee81305a696709d7ce9728479c593ec0986fb9d99cbc2ef7692"
+    },
+    {
+      "file": "matlab/code/gs_equilibrium.m",
+      "bytes": 6813,
+      "sha256": "c32f5f489522b7aaccb0ff32a789a00ec525333bd29d1260703f7aaac48403bc"
+    },
+    {
+      "file": "matlab/code/gs_fft_analysis.m",
+      "bytes": 3051,
+      "sha256": "d143203073912e65561cca017ab60f262d4ef63c7b5030a5933347e13de86fe3"
+    },
+    {
+      "file": "matlab/code/gs_identify_panels.m",
+      "bytes": 10203,
+      "sha256": "41e58beb68ebbe5e953a6682890ab8b3e786a456c327d510cb79c14ea5513f1b"
+    },
+    {
+      "file": "matlab/code/gs_internal_state.m",
+      "bytes": 1744,
+      "sha256": "bc88493dd3bb58dc43c8db1fc54d64ed2d7adfb01ad3aa8418efc6f5cd263ae9"
+    },
+    {
+      "file": "matlab/code/gs_load_polygon_coordinates.m",
+      "bytes": 2212,
+      "sha256": "8606e0a58f58e2cc6027e0345ea21d22aa861681bc1269368b260c6d9a83209a"
+    },
+    {
+      "file": "matlab/code/gs_options.m",
+      "bytes": 5692,
+      "sha256": "0aa512bea5d9bf9042395aa438da757977db717fb1da1f378d5805592272df27"
+    },
+    {
+      "file": "matlab/code/gs_panel_loads.m",
+      "bytes": 11674,
+      "sha256": "7b3a7618a602aa04b5fb3b909aaa422cb71a41db9ac74cb0c201e5e369cb6da0"
+    },
+    {
+      "file": "matlab/code/gs_read_model.m",
+      "bytes": 9030,
+      "sha256": "2b4324873ccb8ea9432a7d434e913204b0241a9da857c90065d2b3971bb01ba2"
+    },
+    {
+      "file": "matlab/code/gs_write_json.m",
+      "bytes": 296,
+      "sha256": "960b563abb4549a9ef4156e12c52d164099fe50f0e985809fa662f02782ab6a4"
+    },
+    {
+      "file": "matlab/code/rt_plan_groups.m",
+      "bytes": 1557,
+      "sha256": "62d789b55a16bb023daa9878ea1e3265c09bf6ea6c8b8f8ebca15ce45ee3bc52"
+    },
+    {
+      "file": "matlab/code/rt_signed_load_cases.m",
+      "bytes": 1664,
+      "sha256": "e0e02c896daf844082587651e87686f2df2b15e72ecd3437a8523d85b3f0cb07"
+    },
+    {
+      "file": "matlab/code/st_design_evaluate.m",
+      "bytes": 3218,
+      "sha256": "a0464087f5b40d931d7ffdeb0510c55d28856119e6a15f0160fe7dcadafd3dce"
+    },
+    {
+      "file": "matlab/code/st_export_design.m",
+      "bytes": 5722,
+      "sha256": "6e221bc681a3b1241be1f042c349ad3c17a4634b1fc423e55ddaf2c239390c12"
+    },
+    {
+      "file": "matlab/code/st_frame_batch.m",
+      "bytes": 4571,
+      "sha256": "4d08aa9e89961a8b3f39c88854f92eee053d3f905baa940e5d44dc0aad939e45"
+    },
+    {
+      "file": "matlab/code/st_iterative_size.m",
+      "bytes": 4796,
+      "sha256": "8bbcdb2f8ee9f7989feff407c9344e9bb4f6ba00c0a1355a5c41e01668b309f1"
+    },
+    {
+      "file": "matlab/code/st_load_cases.m",
+      "bytes": 1616,
+      "sha256": "394a206fa18a22625215c6b7e4df7b2804adf92cdca242901ade968978720f55"
+    },
+    {
+      "file": "matlab/code/st_material.m",
+      "bytes": 820,
+      "sha256": "157607cf1ba9fe273c6baa3b79a131f69ebb8a3475274f9bd704f7bd5378c1f1"
+    },
+    {
+      "file": "matlab/code/st_symmetry_groups.m",
+      "bytes": 1714,
+      "sha256": "911f07b143311540d2b84e48b64ff72eeec433fd3d340009a67c7926a3c9c650"
+    },
+    {
+      "file": "matlab/code/timber_frame_checks.m",
+      "bytes": 9094,
+      "sha256": "9048efb8fdce59c6a9350992ebd216190b0af2197551d1619f6bc84909a5df6a"
+    },
+    {
+      "file": "matlab/design_basis/ec5_basis.json",
+      "bytes": 2951,
+      "sha256": "95c4d3f2203ad382f02383e78d8be16199a52ac3ff08a462869a2006dbdb4af8"
+    },
+    {
+      "file": "matlab/design_basis/eurocode_references.bib",
+      "bytes": 1834,
+      "sha256": "ca33217bb295b8b8dd690671331e46d5b3f9842c11358b052be512a184e85f5f"
+    },
+    {
+      "file": "matlab/examples/benchmark_diagnostics/code/gs_equilibrium.m",
+      "bytes": 7924,
+      "sha256": "548a48e02a601feba0014166069ac2506f759030af56b187afb228719b6c1023"
+    },
+    {
+      "file": "matlab/examples/benchmark_diagnostics/code/gs_fft_analysis.m",
+      "bytes": 2927,
+      "sha256": "01d1cfb95839f986ecdc42b31d141000782560f37ce47b88a0415c7115ba0743"
+    },
+    {
+      "file": "matlab/examples/benchmark_diagnostics/code/gs_identify_panels.m",
+      "bytes": 10203,
+      "sha256": "41e58beb68ebbe5e953a6682890ab8b3e786a456c327d510cb79c14ea5513f1b"
+    },
+    {
+      "file": "matlab/examples/benchmark_diagnostics/code/gs_internal_state.m",
+      "bytes": 1744,
+      "sha256": "bc88493dd3bb58dc43c8db1fc54d64ed2d7adfb01ad3aa8418efc6f5cd263ae9"
+    },
+    {
+      "file": "matlab/examples/benchmark_diagnostics/code/gs_load_polygon_coordinates.m",
+      "bytes": 2212,
+      "sha256": "8606e0a58f58e2cc6027e0345ea21d22aa861681bc1269368b260c6d9a83209a"
+    },
+    {
+      "file": "matlab/examples/benchmark_diagnostics/code/gs_options.m",
+      "bytes": 5586,
+      "sha256": "f68d3e3de8566aba8659743a8bc0fd7e50af405eb801336c7a27070810877e63"
+    },
+    {
+      "file": "matlab/examples/benchmark_diagnostics/code/gs_panel_loads.m",
+      "bytes": 11213,
+      "sha256": "d09e192560b79fbb9cb11525f0a7b13f63294978ec0277a0da8e26d70857f8ba"
+    },
+    {
+      "file": "matlab/examples/benchmark_diagnostics/code/gs_read_model.m",
+      "bytes": 8730,
+      "sha256": "ee05e38f0f94762cce6e5b327a78970c49345f3d807c49cff8ee5358fafbdcb4"
+    },
+    {
+      "file": "matlab/examples/benchmark_diagnostics/code/gs_write_json.m",
+      "bytes": 296,
+      "sha256": "960b563abb4549a9ef4156e12c52d164099fe50f0e985809fa662f02782ab6a4"
+    },
+    {
+      "file": "matlab/examples/benchmark_diagnostics/inputs/analysis_parameters.csv",
+      "bytes": 135,
+      "sha256": "73068877674e74db8172a36b05ee86100ef1bccce5bced13afa085f2e10332df"
+    },
+    {
+      "file": "matlab/examples/benchmark_diagnostics/inputs/edge_connectivity.csv",
+      "bytes": 1120,
+      "sha256": "c6b891be6ed41b25b1d20250eac8f2046ba32350cbda5804387cbaabc0ebc1de"
+    },
+    {
+      "file": "matlab/examples/benchmark_diagnostics/inputs/fixed_dofs.csv",
+      "bytes": 215,
+      "sha256": "205acc4f152386b6699818a1d933f19adbb3755737425c1dec2591396520ad8e"
+    },
+    {
+      "file": "matlab/examples/benchmark_diagnostics/inputs/fixed_edges.csv",
+      "bytes": 107,
+      "sha256": "9d2ae1d2a6c8b7af13d75af03968998c44e34bbea34d55401199bee4f58f0513"
+    },
+    {
+      "file": "matlab/examples/benchmark_diagnostics/inputs/free_dofs.csv",
+      "bytes": 647,
+      "sha256": "82c1b88ab59630f525f215306249aef22e33e28fff0a75190c24e1af2e74320c"
+    },
+    {
+      "file": "matlab/examples/benchmark_diagnostics/inputs/free_edges.csv",
+      "bytes": 678,
+      "sha256": "476029e9239636a880f037db8dbfa6c49b9e40b5d9a9ff86a04ecfb68651d911"
+    },
+    {
+      "file": "matlab/examples/benchmark_diagnostics/inputs/load_patterns.csv",
+      "bytes": 46,
+      "sha256": "3074d202430546fff348972438197b233c500bac4514ddadcd70374d2d390e99"
+    },
+    {
+      "file": "matlab/examples/benchmark_diagnostics/inputs/member_materials.csv",
+      "bytes": 4125,
+      "sha256": "bb69efb37dd5de85962b8ddb79b76adaf0b4e7a50785b58acf68ac4f3e2d681a"
+    },
+    {
+      "file": "matlab/examples/benchmark_diagnostics/inputs/nodal_coordinates.csv",
+      "bytes": 1433,
+      "sha256": "892af49b2480dca8739968d8b4af5258bb035b97fd66a93c1ee828279bc326f8"
+    },
+    {
+      "file": "matlab/examples/benchmark_diagnostics/inputs/panel_connectivity.csv",
+      "bytes": 873,
+      "sha256": "f81a1748c41d3f8d4acb24cd8e5769f062ed22e907cbdd35fc41725a2684820c"
+    },
+    {
+      "file": "matlab/examples/benchmark_diagnostics/inputs/panel_loads.csv",
+      "bytes": 308,
+      "sha256": "d847e9b0864534c1dd46435f5ccb4ea36b222bd326418ad4a32aaaf68ee8beb7"
+    },
+    {
+      "file": "matlab/examples/benchmark_diagnostics/lc_load.m",
+      "bytes": 4713,
+      "sha256": "ed477c1f3f1e4c52630dc39bd25dc0dba0d298efc240c1e878d407fca02c4e1e"
+    },
+    {
+      "file": "matlab/examples/benchmark_diagnostics/lc_write_csv.m",
+      "bytes": 351,
+      "sha256": "548fe8021ced07d7bb99c6e07eeced14745b78e6a359acd71a80b67b58af2043"
+    },
+    {
+      "file": "matlab/examples/benchmark_diagnostics/legacy_loads/GetTributaryArea.m",
+      "bytes": 1664,
+      "sha256": "31513d86b5faae0087f70ad60c5035279bcebc53c6b47eb9b0ea1724e4fc165c"
+    },
+    {
+      "file": "matlab/examples/benchmark_diagnostics/run_fft_diagnostics.m",
+      "bytes": 3574,
+      "sha256": "b8e427af428c1d69bf076e3dfc36e8130f976f8124045c64ad8cd97d8a064d82"
+    },
+    {
+      "file": "matlab/examples/benchmark_diagnostics/run_load_comparison.m",
+      "bytes": 8975,
+      "sha256": "eb1d3d53d32b0dc7e82a5e3831f1e4069a021b0b21d9a0f551354004900c5133"
+    },
+    {
+      "file": "matlab/inputs/benchmark/analysis_parameters.csv",
+      "bytes": 135,
+      "sha256": "73068877674e74db8172a36b05ee86100ef1bccce5bced13afa085f2e10332df"
+    },
+    {
+      "file": "matlab/inputs/benchmark/edge_connectivity.csv",
+      "bytes": 1120,
+      "sha256": "c6b891be6ed41b25b1d20250eac8f2046ba32350cbda5804387cbaabc0ebc1de"
+    },
+    {
+      "file": "matlab/inputs/benchmark/fixed_dofs.csv",
+      "bytes": 215,
+      "sha256": "205acc4f152386b6699818a1d933f19adbb3755737425c1dec2591396520ad8e"
+    },
+    {
+      "file": "matlab/inputs/benchmark/fixed_edges.csv",
+      "bytes": 107,
+      "sha256": "9d2ae1d2a6c8b7af13d75af03968998c44e34bbea34d55401199bee4f58f0513"
+    },
+    {
+      "file": "matlab/inputs/benchmark/free_dofs.csv",
+      "bytes": 647,
+      "sha256": "82c1b88ab59630f525f215306249aef22e33e28fff0a75190c24e1af2e74320c"
+    },
+    {
+      "file": "matlab/inputs/benchmark/free_edges.csv",
+      "bytes": 678,
+      "sha256": "476029e9239636a880f037db8dbfa6c49b9e40b5d9a9ff86a04ecfb68651d911"
+    },
+    {
+      "file": "matlab/inputs/benchmark/load_patterns.csv",
+      "bytes": 46,
+      "sha256": "3074d202430546fff348972438197b233c500bac4514ddadcd70374d2d390e99"
+    },
+    {
+      "file": "matlab/inputs/benchmark/member_materials.csv",
+      "bytes": 4125,
+      "sha256": "bb69efb37dd5de85962b8ddb79b76adaf0b4e7a50785b58acf68ac4f3e2d681a"
+    },
+    {
+      "file": "matlab/inputs/benchmark/nodal_coordinates.csv",
+      "bytes": 1433,
+      "sha256": "892af49b2480dca8739968d8b4af5258bb035b97fd66a93c1ee828279bc326f8"
+    },
+    {
+      "file": "matlab/inputs/benchmark/panel_connectivity.csv",
+      "bytes": 873,
+      "sha256": "f81a1748c41d3f8d4acb24cd8e5769f062ed22e907cbdd35fc41725a2684820c"
+    },
+    {
+      "file": "matlab/inputs/benchmark/panel_loads.csv",
+      "bytes": 308,
+      "sha256": "d847e9b0864534c1dd46435f5ccb4ea36b222bd326418ad4a32aaaf68ee8beb7"
+    },
+    {
+      "file": "matlab/inputs/handoffs/benchmark.json",
+      "bytes": 41089,
+      "sha256": "74273eccf27f5ba74ffc13f0b846a571e21917d27aa2ee0d06e273f914158cc9"
+    },
+    {
+      "file": "matlab/inputs/handoffs/benchmark_groups.json",
+      "bytes": 4074,
+      "sha256": "ae4a3c15551db51f893676d200dd697f1135256bd46829641928615d75456c6e"
+    },
+    {
+      "file": "matlab/inputs/handoffs/nonuniform.json",
+      "bytes": 76802,
+      "sha256": "4ac5df3db864c6dca161434fdd4be4d3a585fdf0c5f6f8a56e3d6fca5868eb94"
+    },
+    {
+      "file": "matlab/inputs/handoffs/nonuniform_groups.json",
+      "bytes": 2650,
+      "sha256": "eaa1a6cd02de268fe6c70dc278807ddbc767b36c81b5741f3df62aaf6f9cd408"
+    },
+    {
+      "file": "matlab/inputs/mixed_control/analysis_parameters.csv",
+      "bytes": 54,
+      "sha256": "a25834d50145ae5064707f5dfa085bc809e794db8c13f9c67e55437a955e7e73"
+    },
+    {
+      "file": "matlab/inputs/mixed_control/boundary_nodes.csv",
+      "bytes": 516,
+      "sha256": "896666764cf25fd48362589afd563a178904445f81211e8b0f6caae00099869e"
+    },
+    {
+      "file": "matlab/inputs/mixed_control/edge_connectivity.csv",
+      "bytes": 3009,
+      "sha256": "287425587254ec2982a50e0651773b9835bfc227cfeef63f0ba6c9d0e2ddea4e"
+    },
+    {
+      "file": "matlab/inputs/mixed_control/fixed_dofs.csv",
+      "bytes": 791,
+      "sha256": "288b52b96013c8e14c5929bd08318fd2b355a15ffc13eafaf2dcba3969959bb9"
+    },
+    {
+      "file": "matlab/inputs/mixed_control/fixed_edges.csv",
+      "bytes": 426,
+      "sha256": "729e0cd4a95b1f38f0a119fbb1019d1901b591f4deeab5b8f96aab763ab783c2"
+    },
+    {
+      "file": "matlab/inputs/mixed_control/free_dofs.csv",
+      "bytes": 791,
+      "sha256": "52a1a19b8c7ad94408d78ec30c033ee7df99208fb62177c3f4c3d6cb4069c66a"
+    },
+    {
+      "file": "matlab/inputs/mixed_control/free_edges.csv",
+      "bytes": 1576,
+      "sha256": "3bffc139649e81fe6c53a766d842c7a77808e82ad7671c6845d7c1a46a1c84e7"
+    },
+    {
+      "file": "matlab/inputs/mixed_control/load_patterns.csv",
+      "bytes": 65,
+      "sha256": "e8ba5760d64f0c57aa8485994a9e504503f9f1ced0b31ff239f04efb277918fd"
+    },
+    {
+      "file": "matlab/inputs/mixed_control/member_materials.csv",
+      "bytes": 10005,
+      "sha256": "e3f6873c416bbf6f56529fe3c6a060bc72ddcb403c1ea2298dbf106e71f8568a"
+    },
+    {
+      "file": "matlab/inputs/mixed_control/nodal_coordinates.csv",
+      "bytes": 4404,
+      "sha256": "4aace55b092e5d960423656a0033441910ae2858ee0f7cc83511c2b390025d4b"
+    },
+    {
+      "file": "matlab/inputs/mixed_control/panel_connectivity.csv",
+      "bytes": 2610,
+      "sha256": "2c05ef75a8c625688488b83a8d64e7673fd9e0f72068015f0c99ea412d907cd7"
+    },
+    {
+      "file": "matlab/inputs/mixed_control/panel_loads.csv",
+      "bytes": 1092,
+      "sha256": "353d840813b255ac9b6972d7b2706ec034472541235a3d781e8b974c8fad615b"
+    },
+    {
+      "file": "matlab/inputs/nonuniform/analysis_parameters.csv",
+      "bytes": 54,
+      "sha256": "a25834d50145ae5064707f5dfa085bc809e794db8c13f9c67e55437a955e7e73"
+    },
+    {
+      "file": "matlab/inputs/nonuniform/boundary_nodes.csv",
+      "bytes": 516,
+      "sha256": "896666764cf25fd48362589afd563a178904445f81211e8b0f6caae00099869e"
+    },
+    {
+      "file": "matlab/inputs/nonuniform/edge_connectivity.csv",
+      "bytes": 3009,
+      "sha256": "287425587254ec2982a50e0651773b9835bfc227cfeef63f0ba6c9d0e2ddea4e"
+    },
+    {
+      "file": "matlab/inputs/nonuniform/fixed_dofs.csv",
+      "bytes": 791,
+      "sha256": "288b52b96013c8e14c5929bd08318fd2b355a15ffc13eafaf2dcba3969959bb9"
+    },
+    {
+      "file": "matlab/inputs/nonuniform/fixed_edges.csv",
+      "bytes": 426,
+      "sha256": "729e0cd4a95b1f38f0a119fbb1019d1901b591f4deeab5b8f96aab763ab783c2"
+    },
+    {
+      "file": "matlab/inputs/nonuniform/free_dofs.csv",
+      "bytes": 791,
+      "sha256": "52a1a19b8c7ad94408d78ec30c033ee7df99208fb62177c3f4c3d6cb4069c66a"
+    },
+    {
+      "file": "matlab/inputs/nonuniform/free_edges.csv",
+      "bytes": 1576,
+      "sha256": "3bffc139649e81fe6c53a766d842c7a77808e82ad7671c6845d7c1a46a1c84e7"
+    },
+    {
+      "file": "matlab/inputs/nonuniform/load_patterns.csv",
+      "bytes": 66,
+      "sha256": "7a5df0da47326ce6d5a82fa7591f4ba15d8ee08afbe30962b6cd270154b07f9a"
+    },
+    {
+      "file": "matlab/inputs/nonuniform/member_materials.csv",
+      "bytes": 10005,
+      "sha256": "e3f6873c416bbf6f56529fe3c6a060bc72ddcb403c1ea2298dbf106e71f8568a"
+    },
+    {
+      "file": "matlab/inputs/nonuniform/nodal_coordinates.csv",
+      "bytes": 4404,
+      "sha256": "4aace55b092e5d960423656a0033441910ae2858ee0f7cc83511c2b390025d4b"
+    },
+    {
+      "file": "matlab/inputs/nonuniform/panel_connectivity.csv",
+      "bytes": 2610,
+      "sha256": "2c05ef75a8c625688488b83a8d64e7673fd9e0f72068015f0c99ea412d907cd7"
+    },
+    {
+      "file": "matlab/inputs/nonuniform/panel_loads.csv",
+      "bytes": 1092,
+      "sha256": "353d840813b255ac9b6972d7b2706ec034472541235a3d781e8b974c8fad615b"
+    },
+    {
+      "file": "matlab/inputs/open_boundary_demo/boundary_nodes.csv",
+      "bytes": 63,
+      "sha256": "050025b38a852af01400c9e7638b9db06d13496077b0b6534514e938b41c7db0"
+    },
+    {
+      "file": "matlab/inputs/open_boundary_demo/edge_connectivity.csv",
+      "bytes": 132,
+      "sha256": "e09778c81e2a626134aa6730e71ae0de50987012acb8fef0e4f939bfd885586e"
+    },
+    {
+      "file": "matlab/inputs/open_boundary_demo/load_patterns.csv",
+      "bytes": 24,
+      "sha256": "837d8bcf0fe63694bb23f911d5f935bf4e90a055458c739380ce3ccb5ecdfd2c"
+    },
+    {
+      "file": "matlab/inputs/open_boundary_demo/member_materials.csv",
+      "bytes": 364,
+      "sha256": "32a9ad56be886d25f764d3d0417284f9ff75d67b0cfd602878b2416128d15ea4"
+    },
+    {
+      "file": "matlab/inputs/open_boundary_demo/nodal_coordinates.csv",
+      "bytes": 143,
+      "sha256": "39244e8d0b7c619913a08892e5e857e52c76b90d820c8af6899990c90e8f2d76"
+    },
+    {
+      "file": "matlab/plot_fft_result.m",
+      "bytes": 1087,
+      "sha256": "17661e729998f633f19bcc6fee7e7e39010bc2427c94ceaaade1e750d9dea520"
+    },
+    {
+      "file": "matlab/plot_sizing_result.m",
+      "bytes": 1163,
+      "sha256": "6733387374a461498f95778d70eb336cf328b32c1a23f332802c0630ea5aa18c"
+    },
+    {
+      "file": "matlab/README.md",
+      "bytes": 8863,
+      "sha256": "691df271797220d3776ec0e2948e00e9a0b91d52223e4e6c74e16a469f9da474"
+    },
+    {
+      "file": "matlab/reference/benchmark/common/design_members.csv",
+      "bytes": 18701,
+      "sha256": "77c4d498a630cb28c9abef7f4e6a2e022457065df03a31c0b1085da7eced0af7"
+    },
+    {
+      "file": "matlab/reference/benchmark/grouped/design_members.csv",
+      "bytes": 18848,
+      "sha256": "c0d7933ba808488adb59fb3b62177ec49654fd7da58d5ef653909fd13c02ac83"
+    },
+    {
+      "file": "matlab/reference/benchmark/omit_bending/design_members.csv",
+      "bytes": 18633,
+      "sha256": "af16f9e628486e01271134d1d086c66ad0da5baef04dafe6a9ee3cef9759cf88"
+    },
+    {
+      "file": "matlab/reference/expected_metrics.json",
+      "bytes": 4051,
+      "sha256": "f95ebafe0d61f272193c92c74b426c226a1b8442a7b14e169627362c75f57a6e"
+    },
+    {
+      "file": "matlab/reference/nonuniform/common/design_members.csv",
+      "bytes": 43991,
+      "sha256": "6ae48c121310b0a7bc5ff99a0d64a50598ba28e3a5242ed20d21668819aedce2"
+    },
+    {
+      "file": "matlab/reference/nonuniform/grouped/design_members.csv",
+      "bytes": 45008,
+      "sha256": "5e56b572fb727eb060cce249c9b8f003919d5a5898fbacfe3ae54b75b87616e5"
+    },
+    {
+      "file": "matlab/reference/nonuniform/omit_bending/design_members.csv",
+      "bytes": 44936,
+      "sha256": "af51e086e81c3120d4de854bd460767f886eb1350fc56841d7a515a4341a955a"
+    },
+    {
+      "file": "matlab/run_benchmark_diagnostics.m",
+      "bytes": 622,
+      "sha256": "9749346abed4238d3d2600b8a62aeda3d2f736b2030a488a48a41c3f5588c26b"
+    },
+    {
+      "file": "matlab/run_fft.m",
+      "bytes": 3424,
+      "sha256": "9e1f90087467ee6e390f4d2fcd0d803ef0c0103b867057d85919429074a34dab"
+    },
+    {
+      "file": "matlab/run_member_sizing.m",
+      "bytes": 3546,
+      "sha256": "1c8737509a58ca6dc597cb52244bf34a4829b42d055427bc6c4396b7cf6cf2b0"
+    },
+    {
+      "file": "matlab/run_paper_experiments.m",
+      "bytes": 1276,
+      "sha256": "266d79a12b8632510b4e945b0310ab0839f4ad38fa3e9258b9d251eb0b167b09"
+    },
+    {
+      "file": "matlab/run_tests.m",
+      "bytes": 610,
+      "sha256": "46214911bfa024f79db03a782d9e6ada9b05b474fedd68c4602e67ace4ecc1de"
+    },
+    {
+      "file": "matlab/setup_paths.m",
+      "bytes": 403,
+      "sha256": "d55a269538dc93746e97dca3cd4d1e6451786f4e878991de46d528d84bb71dd0"
+    },
+    {
+      "file": "matlab/tests/test_boundary_frame_handoff.m",
+      "bytes": 4008,
+      "sha256": "b8ab9778bf0a935923b92081ef62c189fdcda4ca70e89f1283cb938982248dba"
+    },
+    {
+      "file": "matlab/tests/test_boundary_panels.m",
+      "bytes": 8070,
+      "sha256": "310c4bde558b376d9d970732d212852f0767d2bfa5f2601e9bff46fd5c3d972f"
+    },
+    {
+      "file": "matlab/tests/test_frame3d.m",
+      "bytes": 6000,
+      "sha256": "5499e128cfad6283620ecc84fc9ed307e6c46501f22f3fa77217e25f32b88d24"
+    },
+    {
+      "file": "matlab/tests/test_frame3d_handoff.m",
+      "bytes": 5734,
+      "sha256": "156bb7fde4b4b277b4e8e1fea19bc4bba8ba9872bea963fb5e5c73246bdd692c"
+    },
+    {
+      "file": "matlab/tests/test_panel_integration.m",
+      "bytes": 7873,
+      "sha256": "7d2d955e08854e77e1ab3e4d446d9370a9279558bd894d8fcb21c6487c6d6d52"
+    },
+    {
+      "file": "matlab/tests/test_sequential_workflow.m",
+      "bytes": 5087,
+      "sha256": "3e137405362b76106f4f22b874ba45f938230aa2bd17f319e116a627d01b68ab"
+    },
+    {
+      "file": "matlab/tests/test_signed_wind.m",
+      "bytes": 1683,
+      "sha256": "b8afe5d9f91faca5605397a987d18268a7ca70c045ef5c11d7022dd1e8a59beb"
+    },
+    {
+      "file": "matlab/tests/test_timber_frame_checks.m",
+      "bytes": 6653,
+      "sha256": "a0cf3087aa6a07a2b574dac6e1dfc9dd6847c9946dc850790f05d9361c40c78b"
+    },
+    {
+      "file": "matlab/validation/independent_frame_core.py",
+      "bytes": 4388,
+      "sha256": "9b7495c7451735a3f91edcfda0525080eaab4d11669a5402f72daa8f207ada6e"
+    },
+    {
+      "file": "matlab/validation/independent_frame_reference.py",
+      "bytes": 593,
+      "sha256": "8ebcde96f2bf6204fa9940e68b7dd8ce7566229278e879fd0011f58f42cc7465"
+    },
+    {
+      "file": "matlab/validation/requirements.txt",
+      "bytes": 13,
+      "sha256": "0cdc049bf10490d41474deb07267eedac793b4bf560f26ca35d3495171412eef"
+    },
+    {
+      "file": "matlab/validation/validate_design.py",
+      "bytes": 3817,
+      "sha256": "58e66b429aa82d011e86748f8a52ea7c073b597c91de63dbecd65263edd00620"
+    },
+    {
+      "file": "matlab/validation/verify_exported_design.py",
+      "bytes": 9733,
+      "sha256": "5cd946a026426030b343a512cc4acb3e2b37b7484f484e87ac6fd717d8632cdf"
+    },
+    {
+      "file": "README.md",
+      "bytes": 8659,
+      "sha256": "a20401a7c0dec65a7df098c036861f5b0448e8d94f70a86ca51a8170b7466b10"
+    },
+    {
+      "file": "validation/independent_frame_verification.json",
+      "bytes": 11504,
+      "sha256": "6250fcc362b5ccd7e89aaf3677642330d62cf587900f577fd4ab3d871a0c66fe"
+    },
+    {
+      "file": "validation/inference_reproduction.json",
+      "bytes": 2722,
+      "sha256": "3a0fa1e5fc6bf5d6ead582adc19c1eb2c0db0aa4cc4b7c446874668bc09ffba1"
+    },
+    {
+      "file": "validation/matlab_reproduction.json",
+      "bytes": 8413,
+      "sha256": "5dd6f86d81c837925ed77ef115010c55b55362a298aee4d18a53ef1f0f7bac10"
+    },
+    {
+      "file": "validation/matlab_tests.json",
+      "bytes": 4327,
+      "sha256": "293847c8f45ada772425099d2b263e51e18a80a63f764e292cb5cf3a0b2e1073"
+    },
+    {
+      "file": "validation/README.md",
+      "bytes": 1157,
+      "sha256": "54de0d5097d258e47cacc5b05beba7c6b8bba4bdfab9ff0cde49ea49cdf898fd"
+    },
+    {
+      "file": "validation/reproduction_summary.json",
+      "bytes": 282,
+      "sha256": "ab16d599ee70da7f79ad802d27d5662e303974e617504250c433c13a06f821f9"
+    },
+    {
+      "file": "validation/training_data_preflight.json",
+      "bytes": 583,
+      "sha256": "1cdd86ac0e7b3559719e33c7605034f10feff80ae27067a4bbef827ea5c92d3a"
+    },
+    {
+      "file": "verify_files.py",
+      "bytes": 596,
+      "sha256": "6d837b4f36ab9e600df6fbc47edfd85cddfb3c8137c8d7d52517e96103f5be65"
+    }
+  ]
+}

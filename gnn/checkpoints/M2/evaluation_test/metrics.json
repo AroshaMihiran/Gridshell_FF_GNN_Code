@@ -1,0 +1,82 @@
+{
+  "model": "M2",
+  "seed": 42,
+  "checkpoint_epoch": 715,
+  "cases": 994,
+  "invalid_geometry_count": 2,
+  "support_constraint_violation_count": 994,
+  "support_displacement_tolerance_m": 0.001,
+  "maximum_support_displacement_error_m": 0.01881484217872541,
+  "mean_support_rmse_m": 0.00183679894941614,
+  "mean_reaction_rmse_kN": 1.8615841241434352,
+  "macro_case_rmse_m": 0.20876232061683336,
+  "median_case_rmse_m": 0.16246723721338197,
+  "invocation_wall_s": 4.456212799996138,
+  "physics_weight_at_checkpoint": 0.0,
+  "displacement_metrics": {
+    "x": {
+      "rmse": 0.25826665504643564,
+      "mae": 0.15185437728001736,
+      "r2": 0.5447087105943417,
+      "n": 110766
+    },
+    "y": {
+      "rmse": 0.22384520314911388,
+      "mae": 0.1442023313647058,
+      "r2": 0.7233015275515592,
+      "n": 110766
+    },
+    "z": {
+      "rmse": 0.4376809290097632,
+      "mae": 0.25962031591454077,
+      "r2": 0.9544258166812614,
+      "n": 110766
+    }
+  },
+  "coordinate_metrics": {
+    "x": {
+      "rmse": 0.25826665504643564,
+      "mae": 0.15185437728001736,
+      "r2": 0.99894056719009,
+      "n": 110766
+    },
+    "y": {
+      "rmse": 0.22384520314911388,
+      "mae": 0.1442023313647058,
+      "r2": 0.9992185729298505,
+      "n": 110766
+    },
+    "z": {
+      "rmse": 0.4376809290097632,
+      "mae": 0.25962031591454077,
+      "r2": 0.9544258166812614,
+      "n": 110766
+    }
+  },
+  "reaction_metrics": {
+    "x": {
+      "rmse": 2.19488637895413,
+      "mae": 1.164157483412751,
+      "r2": 0.6385237795668222,
+      "n": 33016
+    },
+    "y": {
+      "rmse": 2.3379221249556688,
+      "mae": 1.1997270539930867,
+      "r2": 0.5961342305365784,
+      "n": 33016
+    },
+    "z": {
+      "rmse": 2.015504877085677,
+      "mae": 1.2471218363529022,
+      "r2": 0.7998191895877367,
+      "n": 33016
+    }
+  },
+  "metric_note": "Displacement/coordinate R² is pooled over free joints; reaction R² is pooled over supports. Support displacement errors remain explicit and predictions are not clamped. Reaction labels come from verified FFT exports, not the predicted geometry. Global moment diagnostics use the global origin and distinguish predicted support locations from prescribed initial locations. Computed-reaction balance depends on the free residual and is not an independent equilibrium proof. Timing is batch-amortized; file I/O excluded from inference.",
+  "physics_status": "not_applicable",
+  "model_label": "M2",
+  "completed_physics_training": false,
+  "diagnostic_only": false,
+  "checkpoint_path": "checkpoints/M2_seed42/best.pt"
+}

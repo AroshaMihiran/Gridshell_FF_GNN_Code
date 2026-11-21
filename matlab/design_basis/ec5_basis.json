@@ -1,0 +1,124 @@
+{
+  "verified_date": "2026-11-13",
+  "standard_generation": "first",
+  "national_annex": null,
+  "material": {
+    "grade": "C24",
+    "material_standard": "EN 338:2016",
+    "service_class": 2,
+    "units_strength_stiffness": "MPa",
+    "fm_k": 24.0,
+    "ft0_k": 14.5,
+    "fc0_k": 21.0,
+    "fv_k": 4.0,
+    "ft90_k": 0.4,
+    "fc90_k": 2.5,
+    "E0_mean": 11000.0,
+    "E0_05": 7400.0,
+    "E90_mean": 370.0,
+    "G_mean": 690.0,
+    "rho_k_kg_m3": 350.0,
+    "rho_mean_kg_m3": 420.0
+  },
+  "factors": {
+    "gamma_M": 1.3,
+    "kmod_permanent": 0.6,
+    "kmod_wind_short_term": 0.9,
+    "kdef": 0.8,
+    "km": 0.7,
+    "beta_c": 0.2,
+    "kh": 1.0,
+    "ksys": 1.0,
+    "gamma_G_sup": 1.35,
+    "gamma_G_inf": 1.0,
+    "gamma_Q_wind": 1.5,
+    "psi0_wind": 0.6,
+    "psi1_wind": 0.2,
+    "psi2_wind": 0.0
+  },
+  "load_combinations": [
+    {
+      "name": "ULS_G",
+      "G": 1.35,
+      "W": 0.0,
+      "kmod": 0.6
+    },
+    {
+      "name": "ULS_GW_sup",
+      "G": 1.35,
+      "W": 1.5,
+      "kmod": 0.9
+    },
+    {
+      "name": "ULS_GW_inf",
+      "G": 1.0,
+      "W": 1.5,
+      "kmod": 0.9
+    },
+    {
+      "name": "SLS_characteristic",
+      "G": 1.0,
+      "W": 1.0
+    },
+    {
+      "name": "SLS_frequent",
+      "G": 1.0,
+      "W": 0.2
+    },
+    {
+      "name": "SLS_quasi_permanent",
+      "G": 1.0,
+      "W": 0.0
+    }
+  ],
+  "gravity": {
+    "g_m_s2": 9.81,
+    "member_unit_weight_kN_m3": 4.1202,
+    "panel_dead_excludes_member_selfweight": true,
+    "member_selfweight_must_update_with_area": true
+  },
+  "local_buckling": {
+    "Ky": 1.0,
+    "Kz": 1.0,
+    "length": "physical joint-to-joint length",
+    "stocky_relative_slenderness_limit": 0.3,
+    "restraint_status": "assumed endpoint lateral restraint; not demonstrated global gridshell restraint"
+  },
+  "checked_scope": [
+    "axial tension",
+    "axial compression",
+    "biaxial bending",
+    "local flexural column buckling"
+  ],
+  "not_certified": [
+    "lateral torsional buckling",
+    "shear",
+    "torsion",
+    "connections",
+    "global buckling",
+    "second-order effects",
+    "restraint adequacy",
+    "deflection limits",
+    "bearing",
+    "net sections",
+    "fire",
+    "durability",
+    "all site-specific actions"
+  ],
+  "clauses": {
+    "design_strength": "EC5 2.4.1 (2.14)",
+    "gammaM": "EC5 Table 2.3",
+    "kmod": "EC5 Table 3.1 and 3.1.3(2)",
+    "kdef": "EC5 Table 3.2",
+    "size_effect": "EC5 3.2(3)",
+    "km": "EC5 6.1.6(2)",
+    "tension_bending": "EC5 6.2.3 (6.17)-(6.18), A2 note on instability",
+    "compression_bending": "EC5 6.2.4 (6.19)-(6.20)",
+    "column_buckling": "EC5 6.3.2 (6.21)-(6.29)",
+    "LTB": "EC5 6.3.3 (6.30)-(6.35)",
+    "straightness": "EC5 10.2",
+    "ULS": "EC0 6.4.3.2 (6.10), Table A1.2(B)",
+    "wind_psi": "EC0 Table A1.1",
+    "SLS": "EC0 6.5.3 and EC5 2.2.3 with A2"
+  }
+}

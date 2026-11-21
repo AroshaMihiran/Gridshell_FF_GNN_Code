@@ -1,0 +1,46 @@
+function result=run_fft(name,outputDirectory,overrides)
+%RUN_FFT Solve a packaged example with refreshed geometry-dependent loads.
+% result=run_fft('benchmark'|'nonuniform'|'mixed_control')
+% A third argument supplies explicit gs_options overrides.
+if nargin<1,name='benchmark';end
+if nargin<3,overrides=struct();end
+root=setup_paths();name=validatestring(name,{'benchmark','nonuniform','mixed_control'});
+if nargin<2||isempty(outputDirectory)
+    outputDirectory=fullfile(root,'outputs','fft',[name '_' char(datetime('now','Format','yyyyMMdd_HHmmss_SSS'))]);
+end
+if ~isfolder(outputDirectory),mkdir(outputDirectory);end
+assert(~isfile(fullfile(outputDirectory,'fft_result.mat')),'Existing FFT results are protected.');
+options=struct('DeadLoadFactor',1,'WindLoadFactor',1,'IntegrationOrder',8, ...
+    'MakePlots',false,'FailOnNonconvergence',false,'ElasticModulusFactor',1,'WindDirection','signed');
+if strcmp(name,'benchmark'),options.ElasticModulusFactor=.84;options.WindDirection='upward';end
+for f=fieldnames(overrides)',options.(f{1})=overrides.(f{1});end
+result=gs_fft_analysis(fullfile(root,'inputs',name),options);
+m=result.model;s=result.state;nn=size(m.nodes,1);
+supports=reshape(ismember((1:3*nn)',m.fixedDofs),3,[])';
+roof=s.nodes;roof(:,3)=-roof(:,3);
+qW=m.q2;if strcmp(result.options.WindDirection,'upward'),qW=-abs(qW);end
+handoff=struct('success',result.success,'nodes',s.nodes,'roofNodes',roof,'referenceNodes',m.nodes, ...
+    'bars',m.bars,'A',m.A,'E_effective',s.E,'E_input',m.E,'nodeIds',m.nodeIds, ...
+    'memberIds',m.memberIds,'translationalRestraints',supports,'allFinalForces',reshape(s.F,3,[])', ...
+    'signedAxialForce',s.force,'Lref',s.Lref,'qD',m.q1,'qW',qW,'panels',{m.panels}, ...
+    'panelIds',m.panelIds,'residualCheck',result.residualCheck,'quadratureCheck',result.quadratureCheck, ...
+    'windConvention','signed pressure; positive downward','sourceInputCase',name, ...
+    'initialStressTransferred',false,'displayReflectionOnly',true);
+result.outputDirectory=outputDirectory;result.handoffFile=fullfile(outputDirectory,'handoff.json');
+save(fullfile(outputDirectory,'fft_result.mat'),'result','-v7');
+gs_write_json(result.handoffFile,handoff);
+summary=struct('case',name,'success',result.success,'reason',result.reason,'seconds',result.seconds, ...
+    'outerIterations',s.iterations,'maximumRoofHeight_m',max(roof(:,3)), ...
+    'relativeDisplacement',s.relativeDisplacement,'residualCheck',result.residualCheck, ...
+    'quadratureCheck',result.quadratureCheck,'windDirection',result.options.WindDirection, ...
+    'nodeCount',nn,'memberCount',size(m.bars,1),'panelCount',numel(m.panels));
+gs_write_json(fullfile(outputDirectory,'summary.json'),summary);
+gs_write_json(fullfile(outputDirectory,'convergence.json'),s.history);
+writetable(array2table([m.nodeIds,m.nodes,s.nodes,roof,s.nodes-m.nodes], ...
+    'VariableNames',{'Node_ID','X0_m','Y0_m','Z0_m','X_FFT_m','Y_FFT_m','Z_FFT_m', ...
+    'X_roof_m','Y_roof_m','Z_roof_m','dX_m','dY_m','dZ_m'}),fullfile(outputDirectory,'nodes.csv'));
+plot_fft_result(result,fullfile(outputDirectory,'fft_geometry.png'));
+fprintf('FFT %s: accepted=%d, rise=%.9g m, free residual=%.6g kN; %.3g s.\n', ...
+    name,result.success,summary.maximumRoofHeight_m,result.residualCheck.freeForceResidual_kN,result.seconds);
+assert(result.success,'release:FFTRejected','FFT did not satisfy its unchanged acceptance criteria: %s',result.reason);
+end

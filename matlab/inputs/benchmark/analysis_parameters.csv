@@ -1,0 +1,7 @@
+Parameter,Value
+FF_Tolerance,0.0001
+FF_Max_Iter,100
+MS_Tolerance,0.001
+MS_Max_Iter,100
+Max_Rel_Change,0.001
+Coupled_Max_Iter,30

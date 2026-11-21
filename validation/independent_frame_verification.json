@@ -1,0 +1,353 @@
+{
+  "passes": true,
+  "elastic_and_load_checks": 37,
+  "checks": [
+    {
+      "check": "panel gravity integration",
+      "passes": true,
+      "maximum_error": 1.1368683772161603e-12,
+      "tolerance": 1e-08
+    },
+    {
+      "check": "signed wind integration",
+      "passes": true,
+      "maximum_error": 6.394884621840902e-14,
+      "tolerance": 1e-08
+    },
+    {
+      "check": "G_only displacements",
+      "passes": true,
+      "maximum_error": 6.229045057537519e-14,
+      "tolerance": 1e-08
+    },
+    {
+      "check": "G_only reactions",
+      "passes": true,
+      "maximum_error": 6.343725544866174e-11,
+      "tolerance": 1e-05
+    },
+    {
+      "check": "G_only end-I actions",
+      "passes": true,
+      "maximum_error": 7.09405867382884e-11,
+      "tolerance": 1e-05
+    },
+    {
+      "check": "G_only end-J actions",
+      "passes": true,
+      "maximum_error": 7.09405867382884e-11,
+      "tolerance": 1e-05
+    },
+    {
+      "check": "G_only consistent beam loads",
+      "passes": true,
+      "maximum_error": 1.7763568394002505e-15,
+      "tolerance": 1e-09
+    },
+    {
+      "check": "G_only free-node equilibrium",
+      "passes": true,
+      "maximum_error": 1.796240933771287e-11,
+      "tolerance": 4.538422897807818e-06
+    },
+    {
+      "check": "G_only panel load combination",
+      "passes": true,
+      "maximum_error": 1.5347723092418164e-12,
+      "tolerance": 1e-08
+    },
+    {
+      "check": "Gadverse_Wreference displacements",
+      "passes": true,
+      "maximum_error": 5.3887450057743536e-14,
+      "tolerance": 1e-08
+    },
+    {
+      "check": "Gadverse_Wreference reactions",
+      "passes": true,
+      "maximum_error": 5.934452929068357e-11,
+      "tolerance": 1e-05
+    },
+    {
+      "check": "Gadverse_Wreference end-I actions",
+      "passes": true,
+      "maximum_error": 6.684786058031023e-11,
+      "tolerance": 1e-05
+    },
+    {
+      "check": "Gadverse_Wreference end-J actions",
+      "passes": true,
+      "maximum_error": 6.684786058031023e-11,
+      "tolerance": 1e-05
+    },
+    {
+      "check": "Gadverse_Wreference consistent beam loads",
+      "passes": true,
+      "maximum_error": 1.7763568394002505e-15,
+      "tolerance": 1e-09
+    },
+    {
+      "check": "Gadverse_Wreference free-node equilibrium",
+      "passes": true,
+      "maximum_error": 1.9326651390372263e-11,
+      "tolerance": 4.0759166596231145e-06
+    },
+    {
+      "check": "Gadverse_Wreference panel load combination",
+      "passes": true,
+      "maximum_error": 1.5347723092418164e-12,
+      "tolerance": 1e-08
+    },
+    {
+      "check": "Gfavourable_Wreference displacements",
+      "passes": true,
+      "maximum_error": 3.840677775812651e-14,
+      "tolerance": 1e-08
+    },
+    {
+      "check": "Gfavourable_Wreference reactions",
+      "passes": true,
+      "maximum_error": 4.1382008930668235e-11,
+      "tolerance": 1e-05
+    },
+    {
+      "check": "Gfavourable_Wreference end-I actions",
+      "passes": true,
+      "maximum_error": 4.792610752701876e-11,
+      "tolerance": 1e-05
+    },
+    {
+      "check": "Gfavourable_Wreference end-J actions",
+      "passes": true,
+      "maximum_error": 4.7915449385982356e-11,
+      "tolerance": 1e-05
+    },
+    {
+      "check": "Gfavourable_Wreference consistent beam loads",
+      "passes": true,
+      "maximum_error": 2.842170943040401e-14,
+      "tolerance": 1e-09
+    },
+    {
+      "check": "Gfavourable_Wreference free-node equilibrium",
+      "passes": true,
+      "maximum_error": 1.301711516354942e-11,
+      "tolerance": 2.901881093524791e-06
+    },
+    {
+      "check": "Gfavourable_Wreference panel load combination",
+      "passes": true,
+      "maximum_error": 1.1368683772161603e-12,
+      "tolerance": 1e-08
+    },
+    {
+      "check": "Gadverse_Wreversed displacements",
+      "passes": true,
+      "maximum_error": 6.666195373483674e-14,
+      "tolerance": 1e-08
+    },
+    {
+      "check": "Gadverse_Wreversed reactions",
+      "passes": true,
+      "maximum_error": 6.889422365929931e-11,
+      "tolerance": 1e-05
+    },
+    {
+      "check": "Gadverse_Wreversed end-I actions",
+      "passes": true,
+      "maximum_error": 7.776179700158536e-11,
+      "tolerance": 1e-05
+    },
+    {
+      "check": "Gadverse_Wreversed end-J actions",
+      "passes": true,
+      "maximum_error": 7.776179700158536e-11,
+      "tolerance": 1e-05
+    },
+    {
+      "check": "Gadverse_Wreversed consistent beam loads",
+      "passes": true,
+      "maximum_error": 1.7763568394002505e-15,
+      "tolerance": 1e-09
+    },
+    {
+      "check": "Gadverse_Wreversed free-node equilibrium",
+      "passes": true,
+      "maximum_error": 1.6370793609610246e-11,
+      "tolerance": 5.000929135992521e-06
+    },
+    {
+      "check": "Gadverse_Wreversed panel load combination",
+      "passes": true,
+      "maximum_error": 1.5347723092418164e-12,
+      "tolerance": 1e-08
+    },
+    {
+      "check": "Gfavourable_Wreversed displacements",
+      "passes": true,
+      "maximum_error": 5.5989934910627426e-14,
+      "tolerance": 1e-08
+    },
+    {
+      "check": "Gfavourable_Wreversed reactions",
+      "passes": true,
+      "maximum_error": 5.2295945351943374e-11,
+      "tolerance": 1e-05
+    },
+    {
+      "check": "Gfavourable_Wreversed end-I actions",
+      "passes": true,
+      "maximum_error": 6.048139766789973e-11,
+      "tolerance": 1e-05
+    },
+    {
+      "check": "Gfavourable_Wreversed end-J actions",
+      "passes": true,
+      "maximum_error": 6.048139766789973e-11,
+      "tolerance": 1e-05
+    },
+    {
+      "check": "Gfavourable_Wreversed consistent beam loads",
+      "passes": true,
+      "maximum_error": 8.881784197001252e-16,
+      "tolerance": 1e-09
+    },
+    {
+      "check": "Gfavourable_Wreversed free-node equilibrium",
+      "passes": true,
+      "maximum_error": 1.7130171136585535e-11,
+      "tolerance": 3.826893569894199e-06
+    },
+    {
+      "check": "Gfavourable_Wreversed panel load combination",
+      "passes": true,
+      "maximum_error": 1.1368683772161603e-12,
+      "tolerance": 1e-08
+    }
+  ],
+  "member_checks": {
+    "scenario": "benchmark_default_20261120_051806_375",
+    "passed_independent_member_audit": true,
+    "physical_members": 112,
+    "numerical_segments": 448,
+    "retained_all_members": true,
+    "initial_stress_transferred": false,
+    "max_member_ratio": 0.9800880250253351,
+    "max_ratio_difference": 1.2212453270876722e-15,
+    "volume_m3": 136.25050975800355,
+    "unfactored_member_selfweight_kN": 561.3793503049261,
+    "SLS_signed_superposition_max_error": 1.3877787807814457e-17,
+    "group_section_max_difference_m": 0.0,
+    "cases": [
+      {
+        "case": "G_only",
+        "max_ratio": 0.9800880250253351,
+        "max_dense_concurrent_ratio": 0.9786613311777229,
+        "nonconcurrent_envelope_bounds_all_sampled_sections": true,
+        "endpoint_recovery_error_kN_or_kNm": 1.5152323840084136e-12,
+        "envelope_recovery_error_kN_or_kNm": 3.552713678800501e-15,
+        "global_force_closure_kN": [
+          8.526512829121202e-12,
+          -1.887201506178826e-11,
+          6.048139766789973e-11
+        ],
+        "global_moment_closure_kNm": [
+          2.850489844163917e-10,
+          1.4430234784867935e-11,
+          -2.5029294192790985e-09
+        ],
+        "selfweight_kN": 757.8621229116504,
+        "reported_ratio_difference": -4.440892098500626e-16
+      },
+      {
+        "case": "Gadverse_Wreference",
+        "max_ratio": 0.5940856116448262,
+        "max_dense_concurrent_ratio": 0.5940856116448262,
+        "nonconcurrent_envelope_bounds_all_sampled_sections": true,
+        "endpoint_recovery_error_kN_or_kNm": 1.2381207170619746e-12,
+        "envelope_recovery_error_kN_or_kNm": 1.7763568394002505e-15,
+        "global_force_closure_kN": [
+          2.2737367544323206e-12,
+          -1.2505552149377763e-11,
+          6.24140739091672e-11
+        ],
+        "global_moment_closure_kNm": [
+          1.4134882153626904e-10,
+          3.9896086434509925e-11,
+          -2.317392500117421e-09
+        ],
+        "selfweight_kN": 757.8621229116504,
+        "reported_ratio_difference": 0.0
+      },
+      {
+        "case": "Gfavourable_Wreference",
+        "max_ratio": 0.42840458385620855,
+        "max_dense_concurrent_ratio": 0.42840458385620855,
+        "nonconcurrent_envelope_bounds_all_sampled_sections": true,
+        "endpoint_recovery_error_kN_or_kNm": 1.0098588631990424e-12,
+        "envelope_recovery_error_kN_or_kNm": 1.7763568394002505e-15,
+        "global_force_closure_kN": [
+          2.8990143619012088e-12,
+          -9.777068044058979e-12,
+          5.070432962384075e-11
+        ],
+        "global_moment_closure_kNm": [
+          1.387910897321376e-10,
+          4.430955602430231e-11,
+          -1.5643308870494366e-09
+        ],
+        "selfweight_kN": 561.3793503049262,
+        "reported_ratio_difference": -5.551115123125783e-17
+      },
+      {
+        "case": "Gadverse_Wreversed",
+        "max_ratio": 0.7698115698508824,
+        "max_dense_concurrent_ratio": 0.7698115698508824,
+        "nonconcurrent_envelope_bounds_all_sampled_sections": true,
+        "endpoint_recovery_error_kN_or_kNm": 1.4992451724538114e-12,
+        "envelope_recovery_error_kN_or_kNm": 7.105427357601002e-15,
+        "global_force_closure_kN": [
+          1.1141310096718371e-11,
+          -2.2964741219766438e-11,
+          5.6843418860808015e-11
+        ],
+        "global_moment_closure_kNm": [
+          1.4862477915045247e-10,
+          -2.1112445125481827e-10,
+          -2.9976945370435715e-09
+        ],
+        "selfweight_kN": 757.8621229116504,
+        "reported_ratio_difference": -3.3306690738754696e-16
+      },
+      {
+        "case": "Gfavourable_Wreversed",
+        "max_ratio": 0.6010850288037964,
+        "max_dense_concurrent_ratio": 0.6010850288037964,
+        "nonconcurrent_envelope_bounds_all_sampled_sections": true,
+        "endpoint_recovery_error_kN_or_kNm": 1.13509202037676e-12,
+        "envelope_recovery_error_kN_or_kNm": 3.552713678800501e-15,
+        "global_force_closure_kN": [
+          1.4210854715202004e-11,
+          -1.2050804798491299e-11,
+          3.581135388230905e-11
+        ],
+        "global_moment_closure_kNm": [
+          1.3788159503036468e-10,
+          -3.754496713526123e-11,
+          -2.2628228180110455e-09
+        ],
+        "selfweight_kN": 561.3793503049262,
+        "reported_ratio_difference": -1.1102230246251565e-16
+      }
+    ],
+    "conditional_LTB_screen": {
+      "assumption": "L_eff=L, square softwood, not a verification of restraint or combined LTB",
+      "status": "UNVERIFIED: conditional slenderness screen only; neither an LTB pass nor a resistance failure",
+      "max_lambda_rel_m": 0.8704172357134092,
+      "number_above_0_75": 14,
+      "full_LTB_check_passed": false
+    },
+    "scope": "Independent force recovery, combination/selfweight checks and EC5 normal-stress/assumed-K=1 column ratios. Does not establish roof/global/LTB/shear/torsion/connection/SLS adequacy."
+  },
+  "scope": "Independent verification of the exported first-order frame response, load combinations and specified C24 member checks; no additional design checks are implied."
+}

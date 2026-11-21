@@ -1,0 +1,16 @@
+{
+  "model_id": "M1",
+  "seed": 42,
+  "checkpoint": "checkpoints/M1_seed42/best.pt",
+  "support_mode": "learned",
+  "hidden_dim": 70,
+  "startup_validation_data": 0.8746681700927504,
+  "physics_start_mode": "immediate",
+  "physics_effective_threshold": null,
+  "completed_epochs": 533,
+  "physics_start_epoch": null,
+  "full_physics_checkpoint_available": null,
+  "invocation_wall_s": 1484.5027720001526,
+  "directory": "checkpoints/M1_seed42",
+  "parameters": 194533
+}

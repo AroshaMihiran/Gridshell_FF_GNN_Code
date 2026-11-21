@@ -1,0 +1,127 @@
+{
+  "sizing": {
+    "benchmark": {
+      "grouped": {
+        "success": true,
+        "maximumUtilization": 0.9800880250253355,
+        "volume_m3": 136.25050975800355,
+        "iterations": 26,
+        "minimumSide_m": 0.055,
+        "maximumSide_m": 0.56,
+        "maximumAbsULS_UZ_m": 0.05916807193106189
+      },
+      "common": {
+        "success": true,
+        "maximumUtilization": 0.9616224707915565,
+        "volume_m3": 286.2113082431962,
+        "iterations": 24,
+        "minimumSide_m": 0.5650000000000001,
+        "maximumSide_m": 0.5650000000000001,
+        "maximumAbsULS_UZ_m": 0.04648001788296707
+      },
+      "omit_bending": {
+        "success": false,
+        "maximumUtilization": 1.1561762152259956,
+        "volume_m3": 128.27389788885347,
+        "iterations": 25,
+        "minimumSide_m": 0.055,
+        "maximumSide_m": 0.545,
+        "maximumAbsULS_UZ_m": 0.06394768223708037
+      }
+    },
+    "nonuniform": {
+      "grouped": {
+        "success": true,
+        "maximumUtilization": 0.9846031187858717,
+        "volume_m3": 18.13657849610311,
+        "iterations": 74,
+        "minimumSide_m": 0.05,
+        "maximumSide_m": 0.225,
+        "maximumAbsULS_UZ_m": 0.025040486490813106
+      },
+      "common": {
+        "success": true,
+        "maximumUtilization": 0.9736973602411702,
+        "volume_m3": 45.021715454671906,
+        "iterations": 26,
+        "minimumSide_m": 0.22,
+        "maximumSide_m": 0.22,
+        "maximumAbsULS_UZ_m": 0.013100510681626376
+      },
+      "omit_bending": {
+        "success": false,
+        "maximumUtilization": 1.3134490147525157,
+        "volume_m3": 17.04509822525882,
+        "iterations": 73,
+        "minimumSide_m": 0.05,
+        "maximumSide_m": 0.215,
+        "maximumAbsULS_UZ_m": 0.029036043160670696
+      }
+    }
+  },
+  "fft": {
+    "benchmark": {
+      "maximumRoofHeight_m": 11.319192135530228,
+      "residualCheck": {
+        "passes": true,
+        "stateConverged": true,
+        "freeForceResidual_kN": 0.0026680070913016607,
+        "forceTolerance_kN": 0.0030127010852362378,
+        "freshLoadsAtFinalGeometry": true,
+        "optimizerExitFlag": 5
+      },
+      "quadratureCheck": {
+        "order": 8,
+        "referenceOrder": 16,
+        "maximumNodalDifference_kN": 6.821210263296962e-13,
+        "tolerance_kN": 0.0003012701085236238,
+        "passes": true,
+        "higherOrderFreeResidual_kN": 0.002668007091870095,
+        "higherOrderResidualPasses": true,
+        "maxPanelAreaDifference_m2": 1.8474111129762605e-13
+      }
+    },
+    "nonuniform": {
+      "maximumRoofHeight_m": 1.5096686167170628,
+      "residualCheck": {
+        "passes": true,
+        "stateConverged": true,
+        "freeForceResidual_kN": 0.00013565660533743085,
+        "forceTolerance_kN": 0.0004581484620591068,
+        "freshLoadsAtFinalGeometry": true,
+        "optimizerExitFlag": 5
+      },
+      "quadratureCheck": {
+        "order": 8,
+        "referenceOrder": 16,
+        "maximumNodalDifference_kN": 0,
+        "tolerance_kN": 4.581484620591069e-05,
+        "passes": true,
+        "higherOrderFreeResidual_kN": 0.00013565660533743085,
+        "higherOrderResidualPasses": true,
+        "maxPanelAreaDifference_m2": 0
+      }
+    },
+    "mixed_control": {
+      "maximumRoofHeight_m": 1.6975574664404007,
+      "residualCheck": {
+        "passes": true,
+        "stateConverged": true,
+        "freeForceResidual_kN": 0.00017390070588874096,
+        "forceTolerance_kN": 0.0006420904012887894,
+        "freshLoadsAtFinalGeometry": true,
+        "optimizerExitFlag": 5
+      },
+      "quadratureCheck": {
+        "order": 8,
+        "referenceOrder": 16,
+        "maximumNodalDifference_kN": 0,
+        "tolerance_kN": 6.420904012887895e-05,
+        "passes": true,
+        "higherOrderFreeResidual_kN": 0.00017390070588874096,
+        "higherOrderResidualPasses": true,
+        "maxPanelAreaDifference_m2": 0
+      }
+    }
+  }
+}

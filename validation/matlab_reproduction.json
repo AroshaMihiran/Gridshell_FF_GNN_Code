@@ -1,0 +1,242 @@
+{
+  "fftSummary": {
+    "case": "benchmark",
+    "success": true,
+    "reason": "equilibrium_converged",
+    "seconds": 1.3668817,
+    "outerIterations": 5,
+    "maximumRoofHeight_m": 11.319192135530228,
+    "relativeDisplacement": 4.196754805551425e-06,
+    "residualCheck": {
+      "passes": true,
+      "stateConverged": true,
+      "freeForceResidual_kN": 0.0026680070913016607,
+      "forceTolerance_kN": 0.0030127010852362378,
+      "freshLoadsAtFinalGeometry": true,
+      "optimizerExitFlag": 5
+    },
+    "quadratureCheck": {
+      "order": 8,
+      "referenceOrder": 16,
+      "maximumNodalDifference_kN": 6.821210263296962e-13,
+      "tolerance_kN": 0.0003012701085236238,
+      "passes": true,
+      "higherOrderFreeResidual_kN": 0.002668007091870095,
+      "higherOrderResidualPasses": true,
+      "maxPanelAreaDifference_m2": 1.8474111129762605e-13
+    },
+    "windDirection": "upward",
+    "nodeCount": 64,
+    "memberCount": 112,
+    "panelCount": 49
+  },
+  "sizing": {
+    "success": true,
+    "reason": "rounded_sections_freshly_reanalysed",
+    "nodeCount": 64,
+    "physicalMemberCount": 112,
+    "numericalElementCount": 448,
+    "maximumUtilization": 0.9800880250253355,
+    "minimumUtilization": 0.370299758325673,
+    "initialMaximumUtilization": 560.1153871208238,
+    "volume_m3": 136.25050975800355,
+    "initialVolume_m3": 7.3211161697611224,
+    "minimumSide_m": 0.055,
+    "maximumSide_m": 0.56,
+    "timberSelfWeight_kN": 561.3793503049261,
+    "maximumAbsULS_UZ_m": 0.05916807193106189,
+    "maximumMomentEnvelope_kNm": 45.89453770588749,
+    "iterations": 26,
+    "seconds": 3.191542,
+    "symmetryGroups": 32,
+    "geometryFixedDuringSizing": true,
+    "fftCallsDuringSizing": 0,
+    "allPhysicalMembersRetained": true,
+    "material": {
+      "grade": "C24",
+      "serviceClass": 2,
+      "fc0k": 21000,
+      "ft0k": 14500,
+      "fmk": 24000,
+      "fvk": 4000,
+      "Emean": 11000000.0,
+      "Gmean": 690000,
+      "E05": 7400000.0,
+      "gammaM": 1.3,
+      "rhoMean_kg_m3": 420,
+      "rhoCharacteristic_kg_m3": 350,
+      "unitWeight": 4.1202,
+      "kmodPermanent": 0.6,
+      "kmodWind": 0.9,
+      "windDurationClass": "short-term assumed",
+      "kdef": 0.8,
+      "kh": 1,
+      "ksys": 1,
+      "strengthBasis": "EN338:2016 characteristic properties; first-generation EC5 selected member checks",
+      "source": "https://www.traguiden.se/konstruktion/dimensionering/hallfasthet-och-barformaga/karakteristisk-hallfasthet/konstruktionsvirke2/"
+    },
+    "options": {
+      "MinimumSide": 0.05,
+      "MaximumSide": 1.5,
+      "TargetRatio": 0.98,
+      "Damping": 0.35,
+      "MaximumRelativeStep": 0.25,
+      "RelativeSideTolerance": 0.0001,
+      "MaximumIterations": 200,
+      "RoundingIncrement": 0.005,
+      "MaximumRepairIterations": 50
+    },
+    "cases": [
+      {
+        "name": "G_only",
+        "gammaG": 1.35,
+        "gammaW": 0,
+        "windSign": 0,
+        "kmod": 0.6,
+        "maximumUtilization": 0.9800880250253355,
+        "maximumAbsUZ_m": 0.05342976453386909,
+        "maximumTranslation_m": 0.0534334110418847,
+        "residual_kN": 1.1825207479887467e-11,
+        "residualTolerance_kN": 4.538422897807818e-06,
+        "globalForceClosure_kN": [
+          8.75397705206617e-12,
+          -1.8189894035458565e-11,
+          3.3651303965598345e-11
+        ],
+        "globalMomentClosure_kNm": [
+          2.3283064365386963e-10,
+          2.0378365661599673e-11,
+          -2.517451265770403e-09
+        ],
+        "totalAppliedVertical_kN": -20000.839069477806,
+        "tensionMembers": 0,
+        "compressionMembers": 98,
+        "minN_kN": -2067.3231773058546,
+        "maxN_kN": 3.552713678800501e-15
+      },
+      {
+        "name": "Gadverse_Wreference",
+        "gammaG": 1.35,
+        "gammaW": 1.5,
+        "windSign": 1,
+        "kmod": 0.9,
+        "maximumUtilization": 0.5940856116448262,
+        "maximumAbsUZ_m": 0.053286766299810155,
+        "maximumTranslation_m": 0.05328880043819014,
+        "residual_kN": 1.4634824297563218e-11,
+        "residualTolerance_kN": 4.0759166596231145e-06,
+        "globalForceClosure_kN": [
+          2.558044396236442e-12,
+          -9.094947017729282e-12,
+          3.001332515850663e-11
+        ],
+        "globalMomentClosure_kNm": [
+          1.1641532182693481e-10,
+          2.901856532844249e-11,
+          -2.3282763678016272e-09
+        ],
+        "totalAppliedVertical_kN": -17896.31882359581,
+        "tensionMembers": 0,
+        "compressionMembers": 98,
+        "minN_kN": -1841.0720463022394,
+        "maxN_kN": 1.7763568394002505e-15
+      },
+      {
+        "name": "Gfavourable_Wreference",
+        "gammaG": 1,
+        "gammaW": 1.5,
+        "windSign": 1,
+        "kmod": 0.9,
+        "maximumUtilization": 0.4284045838562086,
+        "maximumAbsUZ_m": 0.03943460512436281,
+        "maximumTranslation_m": 0.0394357750677274,
+        "residual_kN": 1.0713235853998526e-11,
+        "residualTolerance_kN": 2.901881093524791e-06,
+        "globalForceClosure_kN": [
+          3.0694878989118444e-12,
+          -1.000444171950221e-11,
+          5.184119800105691e-11
+        ],
+        "globalMomentClosure_kNm": [
+          2.3283064365386963e-10,
+          5.2237325576243165e-11,
+          -1.5570367904553602e-09
+        ],
+        "totalAppliedVertical_kN": -12710.916101879335,
+        "tensionMembers": 0,
+        "compressionMembers": 98,
+        "minN_kN": -1305.0993707044254,
+        "maxN_kN": 8.881784197001252e-16
+      },
+      {
+        "name": "Gadverse_Wreversed",
+        "gammaG": 1.35,
+        "gammaW": 1.5,
+        "windSign": -1,
+        "kmod": 0.9,
+        "maximumUtilization": 0.7698115698508827,
+        "maximumAbsUZ_m": 0.05916807193106189,
+        "maximumTranslation_m": 0.059187186453154884,
+        "residual_kN": 1.4204581955112872e-11,
+        "residualTolerance_kN": 5.000929135992521e-06,
+        "globalForceClosure_kN": [
+          1.1482461157384955e-11,
+          -2.000888343900442e-11,
+          2.9103830456733704e-11
+        ],
+        "globalMomentClosure_kNm": [
+          8.731149137020111e-11,
+          -2.2654944586975034e-10,
+          -3.012216383534875e-09
+        ],
+        "totalAppliedVertical_kN": -22105.359315359787,
+        "tensionMembers": 0,
+        "compressionMembers": 98,
+        "minN_kN": -2293.574308309469,
+        "maxN_kN": 3.552713678800501e-15
+      },
+      {
+        "name": "Gfavourable_Wreversed",
+        "gammaG": 1,
+        "gammaW": 1.5,
+        "windSign": -1,
+        "kmod": 0.9,
+        "maximumUtilization": 0.6010850288037966,
+        "maximumAbsUZ_m": 0.047813041972686716,
+        "maximumTranslation_m": 0.047826971337891606,
+        "residual_kN": 1.4451578822516353e-11,
+        "residualTolerance_kN": 3.826893569894199e-06,
+        "globalForceClosure_kN": [
+          1.4210797995629233e-11,
+          -1.2732925824820995e-11,
+          4.638422979041934e-11
+        ],
+        "globalMomentClosure_kNm": [
+          2.3283064365386963e-10,
+          -2.9617197583320376e-11,
+          -2.2555287214169625e-09
+        ],
+        "totalAppliedVertical_kN": -16919.956593643295,
+        "tensionMembers": 0,
+        "compressionMembers": 98,
+        "minN_kN": -1757.6016327116545,
+        "maxN_kN": 3.552713678800501e-15
+      }
+    ],
+    "fullDesignVerified": false,
+    "effectiveLengthAssumption": "K2=K3=1 over each physical joint-to-joint member; local braced-end assumption, not justified by rigid joints alone",
+    "interactionEnvelope": "Exact extrema of axial and bending actions per numerical segment conservatively combined within each case; cases are never mixed within one interaction",
+    "excludedChecks": [
+      "global and second-order stability",
+      "lateral-torsional buckling",
+      "shear and torsion resistance",
+      "connections",
+      "net-section/detailing",
+      "serviceability limit compliance"
+    ],
+    "optimizationClaim": "Feasible grouped iterative sizing; neither all utilizations equal to one nor a global minimum is claimed",
+    "scenario": "benchmark",
+    "variant": "default",
+    "outputDirectory": "matlab/outputs/sizing/benchmark_default_20261120_051806_375"
+  }
+}

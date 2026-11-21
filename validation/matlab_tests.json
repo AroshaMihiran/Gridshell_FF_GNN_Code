@@ -1,0 +1,165 @@
+{
+  "panel": {
+    "passed": 23,
+    "failed": 0,
+    "tests": [
+      "uniform_triangle",
+      "square_symmetry",
+      "irregular_quad_exact",
+      "regular_hexagon",
+      "irregular_polygon_centroid",
+      "collinear_polygon_nodes",
+      "wind_direction",
+      "load_superposition",
+      "geometry_area_update",
+      "projection_invariance",
+      "warped_quad_quadrature",
+      "warped_polygon_quadrature",
+      "node_order_invariance",
+      "rigid_rotation_surface",
+      "translation_moment",
+      "shared_node_assembly",
+      "cache_identity",
+      "cache_reject_mismatch",
+      "bad_magnitudes",
+      "bad_geometry",
+      "polygon_reference_required",
+      "shape_function_completeness",
+      "polygon_derivatives"
+    ],
+    "failures": []
+  },
+  "boundary": {
+    "passed": 22,
+    "failed": 0,
+    "tests": [
+      "open_grid_closure",
+      "long_boundary_split",
+      "bar_order_and_orientation",
+      "concave_outline",
+      "explicit_hole",
+      "hole_not_filled",
+      "crossing_members",
+      "missing_outline",
+      "nonplanar_reference",
+      "self_crossing_outline",
+      "member_outside",
+      "unknown_boundary_node",
+      "physical_through_node",
+      "reader_nonconsecutive_ids",
+      "reader_explicit_virtual_panel",
+      "reader_disallowed_closure",
+      "reader_single_pattern_default",
+      "reader_missing_load_assignment",
+      "reader_unconnected_free_node",
+      "reader_explicit_panel_ids",
+      "reader_negative_wind",
+      "reader_fixed_boundary_only_nodes"
+    ],
+    "failures": []
+  },
+  "boundaryFrame": {
+    "passed": 6,
+    "failed": 0,
+    "tests": [
+      "physical_rotations_stay_free",
+      "isolated_boundary_reaction",
+      "no_fake_beams_or_stiffness",
+      "partly_free_boundary_rejected",
+      "multiple_boundary_nodes",
+      "input_unchanged"
+    ],
+    "failures": []
+  },
+  "frame": {
+    "passed": 14,
+    "failed": 0,
+    "tests": [
+      "section_properties",
+      "cantilever_axial",
+      "cantilever_torsion",
+      "cantilever_bending2_shear",
+      "cantilever_bending3_shear",
+      "pure_moment",
+      "rotated_frame_invariance",
+      "member_subdivision",
+      "rigid_body_energy",
+      "global_equilibrium",
+      "mechanism_rejected",
+      "all_restrained",
+      "invalid_axes_rejected",
+      "invalid_connectivity_rejected"
+    ],
+    "failures": []
+  },
+  "frameHandoff": {
+    "passed": 12,
+    "failed": 0,
+    "tests": [
+      "default_geometry_and_topology",
+      "load_and_moment_conservation",
+      "supports_and_rotations",
+      "member_properties",
+      "original_input_unchanged",
+      "prestress_and_reference_ignored",
+      "unmirrored_single_segment",
+      "json_file_input",
+      "missing_G_rejected",
+      "unsuccessful_source_rejected",
+      "failed_residual_rejected",
+      "numeric_residual_rejected"
+    ],
+    "failures": []
+  },
+  "memberChecks": {
+    "passed": 17,
+    "failed": 0,
+    "tests": [
+      "zero_load_scope",
+      "stocky_compression",
+      "pure_tension",
+      "pure_biaxial_bending",
+      "stocky_compression_bending",
+      "slender_column_known_value",
+      "slender_biaxial_interaction",
+      "one_slender_axis",
+      "tension_not_column_buckling",
+      "moment_sign_invariance",
+      "axis_exchange",
+      "unit_scaling",
+      "heterogeneous_properties",
+      "physical_length_effect",
+      "strict_capacity_boundary",
+      "missing_strength_rejected",
+      "invalid_inputs_rejected"
+    ],
+    "failures": []
+  },
+  "sequential": {
+    "passed": 12,
+    "failed": 0,
+    "tests": [
+      "c24_properties",
+      "uniform_cantilever",
+      "fixed_beam_body_moments",
+      "case_superposition",
+      "body_load_global_closure",
+      "member_reversal",
+      "symmetry_groups",
+      "invalid_symmetry_rejected",
+      "wind_and_combination_signs",
+      "design_factors_not_in_fft_defaults",
+      "tension_branch_no_column_reduction",
+      "invalid_sizing_settings_rejected"
+    ],
+    "failures": []
+  },
+  "signedWind": {
+    "passes": true,
+    "flat_signed_cases": 2,
+    "old_mode_exact_equivalence_cases": 16,
+    "negative_wind_rejected_without_explicit_signed_mode": true,
+    "read_model_negative_requires_signed_mode": true,
+    "signed_wind_convention": "Positive qW downward; negative qW upward per projected area"
+  }
+}

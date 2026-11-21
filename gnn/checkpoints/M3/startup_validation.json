@@ -1,0 +1,27 @@
+{
+  "model_id": "M3",
+  "seed": 42,
+  "startup_validation_data": 0.8660027075579414,
+  "startup_validation_free_data": 0.8606852474811434,
+  "startup_validation_support_data": 0.005317460076798025,
+  "startup_validation_components": [
+    0.05503342385301044,
+    0.05353900114962116,
+    2.4734833174407984
+  ],
+  "physics_start_mode": "immediate",
+  "physics_effective_threshold": null,
+  "physics_enabled": false,
+  "schedule_config": {
+    "physics_max_weight": 0.0001,
+    "physics_min_epoch": 1,
+    "physics_data_threshold": 0.5,
+    "physics_consecutive_epochs": 1,
+    "physics_ramp_epochs": 200,
+    "physics_monitor": "validation",
+    "physics_start_mode": "immediate",
+    "physics_initial_loss_ratio": 0.1
+  },
+  "measurement": "Initial model in evaluation mode, full validation partition, no physics loss",
+  "calibration_wall_s": 0.2755265003070235
+}

@@ -1,0 +1,27 @@
+{
+  "model_id": "M2",
+  "seed": 42,
+  "startup_validation_data": 0.8641120684711119,
+  "startup_validation_free_data": 0.857737776373114,
+  "startup_validation_support_data": 0.0063742920979978695,
+  "startup_validation_components": [
+    0.05910341203498591,
+    0.0513632171573702,
+    2.462746699926986
+  ],
+  "physics_start_mode": "immediate",
+  "physics_effective_threshold": null,
+  "physics_enabled": false,
+  "schedule_config": {
+    "physics_max_weight": 0.0001,
+    "physics_min_epoch": 1,
+    "physics_data_threshold": 0.5,
+    "physics_consecutive_epochs": 1,
+    "physics_ramp_epochs": 200,
+    "physics_monitor": "validation",
+    "physics_start_mode": "immediate",
+    "physics_initial_loss_ratio": 0.1
+  },
+  "measurement": "Initial model in evaluation mode, full validation partition, no physics loss",
+  "calibration_wall_s": 0.26479609962552786
+}

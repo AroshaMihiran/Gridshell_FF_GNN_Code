@@ -1,0 +1,8 @@
+{
+  "fft_height_difference_m": 0.0,
+  "sizing_volume_difference_m3": 0.0,
+  "sizing_utilization_difference": 0.0,
+  "original_source_files_unchanged": 187,
+  "maximum_prediction_difference_m": 8.323635252160955e-07,
+  "maximum_force_difference_kN": 1.5931700403370996e-14
+}
